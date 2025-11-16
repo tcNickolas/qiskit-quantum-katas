@@ -43,13 +43,13 @@ simulator = AerSimulator(method='statevector')
 
 
 def check_state_vector(
-    fun,            # Callable that is being tested
+    solution,       # Callable that is being tested
     expected_vector # State vector it should prepare
 ) -> None:
     # Construct the circuit that has the callable as a part of it
     q = QuantumRegister(1)
     circ = QuantumCircuit(q)
-    fun(circ, q)
+    solution(circ, q)
 
     # Save the state vector
     circ.save_statevector()
@@ -61,9 +61,9 @@ def check_state_vector(
 
     if actual_vector != approx(expected_vector):
         print("Expected state vector:")
-        print_matrix(expected_vector)
+        print(expected_vector)
         print("Actual state vector:")
-        print_matrix(actual_vector)
+        print(actual_vector)
         raise ValueError("State vectors should be equal")
 
 
@@ -73,13 +73,13 @@ def print_matrix(matrix):
 
 
 def check_operation_matrix(
-    fun,            # Callable that is being tested
+    solution,       # Callable that is being tested
     expected_matrix # Matrix it should have
 ) -> None:
     # Construct the circuit that has the callable as a part of it
     q = QuantumRegister(1)
     circ = QuantumCircuit(q)
-    fun(circ, q)
+    solution(circ, q)
     # Convert the circuit to a matrix
     op = Operator(circ)
     actual_matrix = op.data
