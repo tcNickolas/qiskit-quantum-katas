@@ -19,3 +19,5 @@ The Quantum Katas are a collection of self-paced tutorials and programming exerc
 * [The qubit](./Qubit/Qubit.ipynb). Learn what a qubit is.
 * [Single-qubit gates](./SingleQubitGates/SingleQubitGates.ipynb). Learn about what quantum gate is and about the most common single-qubit gates.
 * [Single-qubit measurements](./SingleQubitMeasurements/SingleQubitMeasurements.ipynb). Learn about what quantum measurement is and how to use it in single-qubit systems.
+* [Multi-qubit systems](./MultiQubitSystems/MultiQubitSystems.ipynb). Learn how to represent multi-qubit systems.
+* [Preparing quantum states](./PreparingStates/PreparingStates.ipynb). Learn to prepare superposition states.
