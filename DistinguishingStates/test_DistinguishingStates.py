@@ -1,10 +1,9 @@
 from cmath import exp
-from math import pi, sqrt, cos, sin, log2
+from math import pi, sqrt
 from functools import partial
 from qiskit import transpile, QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit_aer import AerSimulator
-from qiskit.quantum_info import Operator
-from pytest import approx, mark
+from pytest import mark
 from warnings import catch_warnings
 
 try:
