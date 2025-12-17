@@ -14,12 +14,20 @@ The Quantum Katas are a collection of self-paced tutorials and programming exerc
 
 ## Learning path
 
-### Quantum Computing Concepts: Qubits and Gates
+### Quantum computing concepts: qubits and gates
 
 * [The qubit](./Qubit/Qubit.ipynb). Learn what a qubit is.
 * [Single-qubit gates](./SingleQubitGates/SingleQubitGates.ipynb). Learn about what quantum gate is and about the most common single-qubit gates.
-* [Single-qubit measurements](./SingleQubitMeasurements/SingleQubitMeasurements.ipynb). Learn about what quantum measurement is and how to use it in single-qubit systems.
 * [Multi-qubit systems](./MultiQubitSystems/MultiQubitSystems.ipynb). Learn how to represent multi-qubit systems.
-* [Measurements in multi-qubit systems](./MultiQubitMeasurements/MultiQubitMeasurements.ipynb). Learn to use measurements in multi-qubit systems.
 * [Preparing quantum states](./PreparingStates/PreparingStates.ipynb). Learn to prepare superposition states.
+
+### Quantum computing concepts: measurements
+
+* [Measurements in single-qubit systems](./SingleQubitMeasurements/SingleQubitMeasurements.ipynb). Learn about what quantum measurement is and how to use it in single-qubit systems.
+* [Measurements in multi-qubit systems](./MultiQubitMeasurements/MultiQubitMeasurements.ipynb). Learn to use measurements in multi-qubit systems.
 * [Distinguishing quantum states](./DistinguishingStates/DistinguishingStates.ipynb). Learn to distinguish orthogonal quantum states using measurements.
+
+### Quantum oracles and simple oracle algorithms
+
+* [Deutsch algorithm](./DeutschAlgorithm/DeutschAlgorithm.ipynb). Learn to implement single-qubit quantum oracles and compare the quantum solution to the Deutsch problem to a classical one.
+
