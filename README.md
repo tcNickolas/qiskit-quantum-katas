@@ -30,4 +30,5 @@ The Quantum Katas are a collection of self-paced tutorials and programming exerc
 ### Quantum oracles and simple oracle algorithms
 
 * [Deutsch algorithm](./DeutschAlgorithm/DeutschAlgorithm.ipynb). Learn to implement single-qubit quantum oracles and compare the quantum solution to the Deutsch problem to a classical one.
+* [Deutsch–Jozsa algorithm](./DeutschJozsaAlgorithm/DeutschJozsaAlgorithm.ipynb). Learn about quantum oracles which implement classical functions, and implement Bernstein–Vazirani and Deutsch–Jozsa algorithms.
 
